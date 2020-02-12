@@ -247,7 +247,8 @@ PRODUCT_PACKAGES += \
 
 # Dex preopt
 PRODUCT_DEXPREOPT_SPEED_APPS += \
-    SystemUI
+    SystemUI \
+    Launcher3QuickStep
 
 # Common overlay
 DEVICE_PACKAGE_OVERLAYS += vendor/colt/overlay/common
