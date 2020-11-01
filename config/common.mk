@@ -179,6 +179,10 @@ PRODUCT_PACKAGES += \
     ExactCalculator \
     Terminal
 
+# Launcher overlay
+PRODUCT_PACKAGES += \
+    ShadyQuickStepAppLockOverlay
+
 # Extra tools in Colt
 PRODUCT_PACKAGES += \
     7z \
